@@ -1,0 +1,118 @@
+body {
+	background: #f1f1f1;
+	font-family: Raleway;
+	text-transform: capitalize;
+}
+.container .top-header {
+	background: rgba(5,5,5,0.9);
+	color: white;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	align-items: center;
+	font-weight: bold;
+	padding: 10px 0px;
+}
+.container .top-header .fecha {
+	margin-left: 10px;
+
+}
+.container .top-header .redes {
+	margin-right: 10px;
+
+}
+.container .top-header .redes a {
+	text-decoration: none;
+	color: white;
+	margin-right: 20px;
+
+}
+header {
+	
+	background: white;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	align-items: center;
+	padding: 10px 10px;
+}
+header .logo {
+	background: red;
+}
+header .categorias {
+	padding: 10px 0px;
+}
+header .categorias a {
+	text-decoration: none;
+	margin-right: 10px;
+	padding: 10px 0px;
+	color: black;
+	font-weight: bold;
+}
+header .categorias a:hover {
+	border: none;
+	border-bottom: 1px solid black;
+	color: black;
+	transition: 5s;
+}
+header .categorias a:active {
+	border: none;
+	border-bottom: 1px solid black;
+	color: black;
+	transition: 5s;
+}
+article {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	align-items: center;
+	background: #f1f1f1;
+	font-family: Arial;
+	border:none;
+}
+article p {
+	background: rgba(5,5,5,0.9);
+	color: #f1f1f1;
+	padding: 10px;
+	border:none;
+
+}
+article small {
+	padding: 10px;
+}
+main {
+width: 100%;
+}
+main .contenido {
+	width: 100%;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-around;
+}
+main .contenido .carta {
+	width: 49.5%;
+	background-image: url(img/1.jpg);
+}
+main .contenido .carta .contenido-carta {
+	width: 100%;
+}
+main .contenido .carta .contenido-carta img{
+	width: 100%;
+	vertical-align: top;
+}
+main .contenido .carta .contenido-texto{
+	margin-top: -100px;
+	color: white;
+	margin-left: 10px;
+	position: absolute;
+}
+main .contenido .carta .contenido-texto small {
+	background: rgba(5,5,5,1);
+	color: white;
+	padding: 10px;
+
+}
